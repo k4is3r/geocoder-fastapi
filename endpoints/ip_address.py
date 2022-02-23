@@ -1,4 +1,4 @@
-import fastapi import APIRouter
+from fastapi import APIRouter
 from api_functions import ResponseModel, ErrorResponseModel
 import geocoder
 
