@@ -22,5 +22,5 @@ async def ip_address(ip: str):
             "address": addrress
         }
         return ResponseModel(data, "success")
-    except Execption:
+    except Exception:
         return ErrorResponseModel(400, "Invalid IP_Address input")

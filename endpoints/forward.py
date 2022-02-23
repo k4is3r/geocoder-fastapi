@@ -21,5 +21,5 @@ async def forward(address: str):
             "address": address,
         }
         return ResponseModel(data, "success")
-    except Execption:
+    except Exception:
         return ErrorResponseModel(503, "Internal Server Error")
