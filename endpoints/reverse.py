@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from api_functions import ResponseMode, ErrorResponseModel
+from api_functions import ResponseModel, ErrorResponseModel
 import geocoder
 
 router = APIRouter()
