@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from starlette.response import RedirectResponse
+from starlette.responses import RedirectResponse
 
 router = APIRouter()
 
@@ -8,5 +8,5 @@ router = APIRouter()
         description="API documentation Page")
 async def main():
     """API documentation Page"""
-    return RedirectResponse(url="/docs"/")
+    return RedirectResponse(url="/docs")
 
